@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="net.elektrasoft.shahbazmancho.listviewexample.MainActivity"
+android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+    <EditText
+        android:id="@+id/searchTbx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search ..."
+        android:fontFamily="sans-serif"
+        />
+</LinearLayout>
+
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listViewmyrides">
+
+</ListView>
+
+</LinearLayout>
